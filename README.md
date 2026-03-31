@@ -124,7 +124,7 @@ Layer 13 generates infinite complexity: the Mandelbrot set — the most famous i
 
 ## Prior art
 
-Nobody has built the complete staircase in one runnable artifact before. The pieces have deep roots:
+I couldn't find that someone built the complete staircase in one runnable artifact before. The pieces have deep roots:
 
 - **Kleene (1936)** — defined φ(e, x) and the six primitives. Stopped at number theory.
 - **Gödel (1931)** — encoded arithmetic in primitive recursive functions. For incompleteness, not calculus.
