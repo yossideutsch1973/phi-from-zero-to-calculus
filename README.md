@@ -154,4 +154,4 @@ MIT. See [LICENSE](LICENSE).
 
 **Yossi Deutsch** — [github.com/yossideutsch1973](https://github.com/yossideutsch1973)
 
-Built in conversation with Claude (Anthropic), March 2026.
+Research assistants are Claude (Anthropic) and Gemini (Google). March 2026.
