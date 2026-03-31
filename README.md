@@ -23,7 +23,21 @@ Z → S → add → mul → pred → monus → isz
                           → Mandelbrot  (z → z²+c)
 ```
 
-## Why this exists
+## Why I built this
+
+While managing the computer vision algorithm team at General Motors Advanced Technology Center, I kept hitting the same wall: I couldn't explain to brilliant engineers *why functional programming matters*. Why pure functions. Why composition. Why treating programs as data. The arguments always sounded like aesthetic preference — "it's cleaner," "it's more testable" — never like a fundamental truth.
+
+This project is my answer. Not an argument. A demonstration.
+
+Six atoms — zero, successor, projection, composition, recursion, search — and nothing else. No state, no mutation, no objects. Just pure functions composed into other pure functions. And from that: arithmetic, algebra, calculus, differential equations, transcendental numbers, trigonometry, Fourier analysis, and the Mandelbrot set. Thirteen layers. The complexity isn't in the parts. It's in the depth of composition.
+
+This is the same principle behind chemistry (~100 atoms, a few bonding rules, every molecule), genetics (4 bases, transcription machinery, every organism), and digital logic (NAND gates, wiring, every computer). Simple atoms composed deeply produce unbounded complexity. Functional programming isn't a style choice. It's what happens when you take this principle seriously in code.
+
+By Layer 7, you cannot write the derivative without passing a function to a function. By Layer 10, you're solving differential equations by composing the same two operations (`fp_add`, `fp_mul`) that you built from successor in Layer 1. Nobody designed this. It falls out of the math. Higher-order functions, referential transparency, programs as data — these aren't features of a paradigm. They're consequences of composition.
+
+This is a gift for my dear friends and colleagues **Lior Stein**, **Michael Michaeli**, **Yael Gefen**, **Yahav Zamari**, and the many others who worked alongside me at GM's Advanced Technology Center. I hope it settles the argument.
+
+## The gap it fills
 
 The computability theory people prove that the μ-recursive functions generate all computable functions — then stop at number theory. The numerical analysis people build derivatives and ODE solvers — starting from floats. Nobody walks the full staircase in one artifact.
 
